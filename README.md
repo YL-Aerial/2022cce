@@ -61,3 +61,56 @@ int main()
     printf("答案b: %d",b);
 }
 ```
+##week08
+##質數判別
+```cpp
+    #include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    int bad=0;
+    for(int i=2;i<n;i++){
+        if(n%i==0) bad=1;
+    }
+    if(bad==0) printf("%d 是質數",n);
+    else printf("%d 不好,不是質數",n);
+}
+```
+##實習講解-[for2] 以*輸出直角三角形
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int k=1;k<=n;k++){
+        if(k<=n-i) printf(" ");
+        else printf("*");
+        }
+    printf("\n");
+    }
+}
+```                             
+##實習講解-[while2] 以*輸出直角三角形
+```cpp
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+
+	int i=1;
+	while(i<=n){
+	int k=1;
+	while(k<=n){
+		if(k<=n-i) printf(" ");
+		else printf("*");
+		k++;
+	}
+	printf("\n");
+	i++;
+	}
+}
+```                  
