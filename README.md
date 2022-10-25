@@ -61,8 +61,8 @@ int main()
     printf("答案b: %d",b);
 }
 ```
-##week08
-##質數判別
+## week08
+## 質數判別
 ```cpp
     #include <stdio.h>
 int main()
@@ -77,7 +77,7 @@ int main()
     else printf("%d 不好,不是質數",n);
 }
 ```
-##實習講解-[for2] 以*輸出直角三角形
+## 實習講解-[for2] 以*輸出直角三角形
 ```cpp
 #include <stdio.h>
 int main()
@@ -93,7 +93,7 @@ int main()
     }
 }
 ```                             
-##實習講解-[while2] 以*輸出直角三角形
+## 實習講解-[while2] 以*輸出直角三角形
 ```cpp
 #include <stdio.h>
 int main()
